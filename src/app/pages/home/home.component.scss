@@ -1,0 +1,57 @@
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.villains{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 110vh;
+
+    .ultron,
+    .loki,
+    .thanos{
+        width: 29%;
+    }
+}
+
+
+.villains-text{
+    color: white;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-family: 'Spline Sans Mono', monospace;
+}
+
+
+.ironman-title{
+
+    text-align: center;
+    padding: 100px, 0;
+    font-size: 5em;
+
+    .ironman-title-i,
+    .ironman-title-r,
+    .ironman-title-o,
+    .ironman-title-n,
+    .ironman-title-m,
+    .ironman-title-a,
+    .ironman-title-n2{
+        img{
+            height: 300px;
+        }
+    }
+}
